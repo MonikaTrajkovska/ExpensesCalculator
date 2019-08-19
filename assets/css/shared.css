@@ -1,0 +1,21 @@
+.input-container{
+    
+}
+
+.text-field-input{
+    font-size: 15px;
+    color:  #8D8D8D ;
+    margin-left: 50px;
+    padding-top: 80px;
+}
+.text-field{
+    background: #fff;
+    border: 2px solid;
+    border-color: #C6C6C6;
+    margin: 15px;
+    padding-left: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+
+}
