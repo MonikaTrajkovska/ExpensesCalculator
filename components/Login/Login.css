@@ -1,4 +1,5 @@
 html, body{
+    margin: 0px;
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -7,12 +8,35 @@ html, body{
 
 }
 .box-container{
-    height: 400px;
-    width: 400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 350px;
     background: #fff;
-    border: 2px solid;
-    border-color: #C6C6C6;
-    margin-left: 700px;
-    margin-top: 250px;
+     border-color: #C6C6C6;
+    margin-left: 250px;
+    margin-top: 100px;
     border-radius: 10px;
+    padding: 0px;
+   
+}
+#login{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 200px;
+    
+    
+}
+.additional-info{
+    margin-left:300px;
+    margin-top: 50px;
+    font-size: 15px;
+    color:  #8D8D8D ;
+}
+.input-container{
+    padding: 20px;
+    
 }
