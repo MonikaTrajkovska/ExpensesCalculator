@@ -52,6 +52,9 @@ header {
 button {
   cursor: pointer;
 }
+button:hover{
+  background-color: #dadfe8;
+}
 .main-buttons{
   background-color: white;
   height: 35px;
@@ -69,10 +72,16 @@ button {
     color: #1DD1A1;
     margin-right: 10px;
 }
+#products-btn:hover{
+  background-color:#dadfe8;
+}
 #expenses-btn{
   background: transparent;
     border: 1.5px solid #576574;
     color: #576574;
+}
+#expenses-btn:hover{
+  background-color: #dadfe8;
 }
 .main-div{
   
@@ -121,4 +130,7 @@ position: fixed;
 bottom: 43px;
 right: 115px; 
 
+}
+.fixed-button:hover{
+  background-color: #d2d6d0;
 }

@@ -46,3 +46,7 @@
     text-transform: uppercase;
 
 }
+
+.primary-button:hover{
+    background-color: #d2d6d0;
+  }

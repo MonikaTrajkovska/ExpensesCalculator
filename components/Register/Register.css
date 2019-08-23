@@ -65,6 +65,10 @@ html, body{
     border: none;
     text-transform: uppercase;
 }
+.primary-button:hover{
+    background-color: #d2d6d0;
+    cursor: pointer;
+}
 .additional-info{
     
     margin-top: 50px;
